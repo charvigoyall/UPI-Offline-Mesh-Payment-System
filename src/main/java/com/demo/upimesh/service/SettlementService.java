@@ -92,5 +92,5 @@ public class SettlementService {
         tx.setHopCount(hopCount);
         tx.setStatus(Transaction.Status.REJECTED);
         return transactions.save(tx);
-    }//
+    }
 }
