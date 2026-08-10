@@ -51,7 +51,7 @@ public class DemoService {
      * In a real Android app, this exact code (minus the server-side reference)
      * would run on the phone. The phone would have already cached the server's
      * public key during a previous online session.
-     */
+     *///
     public MeshPacket createPacket(String senderVpa, String receiverVpa,
                                    BigDecimal amount, String pin, int ttl) throws Exception {
         PaymentInstruction instruction = new PaymentInstruction(
