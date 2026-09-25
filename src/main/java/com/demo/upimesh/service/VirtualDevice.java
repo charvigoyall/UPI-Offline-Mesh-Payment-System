@@ -41,7 +41,7 @@ public class VirtualDevice {
     public int packetCount() {
         return heldPackets.size();
     }
-    // for clearing
+    
     public void clear() {
         heldPackets.clear();
     }
